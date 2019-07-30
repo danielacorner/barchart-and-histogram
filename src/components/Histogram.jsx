@@ -28,9 +28,11 @@ export default ({ data, plCategory }) => {
     }
     return barsAcc;
   }, {});
+  console.log('🌈: bars', bars);
 
   return (
     <HistogramStyles className="barChart">
+      <div className="hey">HELLOOOO</div>
       {Object.entries(bars).map(([tagName, { duration }]) => (
         <div key={tagName}>
           <div>{tagName}</div>
