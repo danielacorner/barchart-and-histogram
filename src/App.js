@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import BarChart from './components/BarChart';
 import exampleData from './data';
 import Histogram from './components/Histogram';
